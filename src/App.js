@@ -1,12 +1,12 @@
 import React from 'react';
 
 const App = () => {
-  const [text, setText] = React.useState('Hello React');
+  const [text, setText] = React.useState('Hello (from iMac)');
 
   const handleChange = event => {
     setText(event.target.value);
   };
-  
+
   return (
     <>
       <p>{text}</p>
